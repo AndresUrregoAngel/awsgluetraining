@@ -12,7 +12,7 @@ class ReadingCatalogTables(Exception):
         
         
 class notificationsManager:
-    def __init__(self,args):
+    def __init__(self):
         self._sns = boto3.client('sns')
        
         
